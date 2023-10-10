@@ -1,0 +1,163 @@
+body{
+    margin: 0;
+    background-color:#C6B29A !important;
+    height: 100vh !important;
+
+
+}
+#layout{
+    display: flex;
+    gap: 0;
+    align-items: center;
+    justify-content: center;
+    height: 710px !important;
+
+}
+
+
+/* img side */
+#design2{
+    width: 450px !important;
+
+}
+#imglog{
+    height: 640px;
+    width: 450px;
+    margin: 0;
+}
+
+/* form side */
+#design1{
+    width: 550px !important;
+
+}
+#log {
+    background-color: #fffdf2;
+    height: 640px;
+    margin: 0;
+    padding: 0 50px !important;
+
+}
+
+
+
+
+/* title */
+#top{
+    text-align: center;
+}
+#logo{
+    width: 300px;
+    height: 100px;
+    text-align: center;
+    margin-top: 5px;
+}
+#welcome{
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    margin-bottom: 5px;
+ }
+
+ #title{
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px ;
+ }
+
+
+
+
+/* form */
+#flex{
+   display: flex; 
+   justify-content: space-between;
+}
+ #logbtn{
+    color: #fffdf2;
+    background-color: #513D2F;
+    width: 100px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+ }
+ /* #logbtn a{
+   color: #fffdf2;
+   background-color:transparent;
+   text-decoration: none;
+}
+#logbtn a:hover{
+  
+    color: #513D2F;
+} */
+
+
+ #logbtn:hover{
+    font-weight: bold;
+    background-color: rgba(198, 178, 154,.5);
+    color: #513D2F;
+
+ }
+
+ #forget{
+   text-decoration: none;
+   color: #513D2F;
+   font-size: 12px;
+}
+#forget:hover{
+   font-weight: bold;
+}
+#divbtn{
+   text-align: right;
+}
+
+
+ /* logwith */
+ #logwith{
+    text-align: center;
+    margin: 20px 0;
+ }
+
+ #logwith img:hover{
+    cursor: pointer;
+    scale: 1.04;
+ }
+ p b:hover{
+    cursor: pointer;
+    color:burlywood; }
+
+ .mb-3 input{
+    background-color:rgba(198, 178, 154, .50);
+    height: 35px;
+ }
+#remember_me{
+   height: 18px;
+   width: 18px;
+}
+
+
+ .mb-3 label , p{
+    color:#513D2F;
+    font-family: 'Roboto Slab', serif;
+
+ }
+
+ .mb-3 input:focus{
+   background-color:rgba(198, 178, 154, .50) !important;
+   border: #513D2F 1px solid !important;
+   box-shadow: #513D2F 0px 0px 3px !important;
+}
+input:-internal-autofill-selected {
+   background-color:rgba(198, 178, 154, .50) !important;
+
+}
+
+p b a{
+   color: #513D2F;
+   text-decoration: none;
+}
+ p b a:hover{
+    cursor: pointer;
+    color:burlywood; }
+
+ span{
+   color: red;
+   font-size: 15px;
+ }

@@ -1,0 +1,103 @@
+/* crumb***************************************************** */
+#crumb{
+    margin:20px 100px;
+    color: #C6B29A !important;
+}
+
+#crumb li{
+    color: #C6B29A !important;
+    font-size: 20px;
+    font-weight: bold;
+
+
+}
+
+#crumb li a{
+    color: #C6B29A !important;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+/* our Aspirations ********************************* */
+.Aspirations{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-family: 'EB Garamond', serif;
+ 
+}
+
+
+/* ABOUT ************************************************** */
+.about {
+    /* background-color: #FFFBF2; */
+    color: #513D2F;
+    padding: 30px 200px;
+    height: 530px;
+    font-size: 25px;
+    text-align: justify;
+    margin-bottom: 100px;
+    font-family: 'EB Garamond', serif;
+}
+
+.float-end{
+    height: 400px !important;
+    padding-left: 50px;
+}
+
+#rentbtn{
+ background-color: rgba(198, 178, 154, 0.6);
+ color: #513D2F;
+ font-size: 28px;
+ font-weight:900 ;
+ font-family: 'Caveat', cursive;
+ border-radius: 5px;
+ border: none;
+ margin-top: 30px;
+ padding: 5px 10px;
+}
+
+#rentbtn:hover{
+    background-color: #c6b29a;
+    color: #9E5127;
+}
+
+
+
+/* Why Choose ModaRenta?********************************** */
+.aboutrow{
+    width: 80%;   
+    margin: auto !important;
+    margin-bottom: 200px !important;
+   
+    
+}
+.card{
+    border: 4px solid #C6B29A !important;
+    border-radius:20px !important;
+    text-align: center;
+    background-color: #FFFBF2 !important;
+    padding: 5px;
+    /* width: 90%; */
+    vertical-align: middle;
+}
+#allcard{
+    background-image: url(../photos/backabout.PNG);
+    background-size: cover;
+    width: 80%;
+    margin: auto !important;
+
+}
+
+
+.card-title{
+    display: inline;
+    font-size: 25px;
+}
+.card-text{
+    font-size: 20px;
+    margin-top: 20px !important;
+}

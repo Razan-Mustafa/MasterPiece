@@ -1,0 +1,149 @@
+body{
+    margin: 0;
+    background-color:#C6B29A !important;
+    height: 100vh !important;
+
+}
+#layout{
+    display: flex;
+    gap: 0;
+    align-items: center;
+    justify-content: center;
+    height: 710px !important;
+
+}
+
+
+/* img side */
+#design2{
+    width: 450px !important;
+
+}
+#imglog{
+    height: 690px;
+    width: 450px;
+    margin: 0;
+}
+
+/* form side */
+#design1{
+    width: 600px !important;
+
+}
+#log {
+    background-color: #fffdf2;
+    height: 690px;
+    margin: 0;
+    padding: 0 50px !important;
+
+}
+
+
+
+
+/* title */
+#top{
+    text-align: center;
+}
+#logo{
+    width: 300px;
+    height: 100px;
+    text-align: center;
+    margin-top: 10px;
+}
+#welcome{
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    margin-bottom: 5px;
+ }
+
+ #title{
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px ;
+ }
+
+
+
+
+/* form */
+#flex{
+   display: flex; 
+   justify-content: space-between;
+   margin-top: 15px;
+}
+#flex label{
+    font-size: 14px;
+ }
+
+ #have{
+    margin-top: 20px;
+ }
+
+ #logbtn{
+    color: #fffdf2;
+    background-color: #513D2F;
+    width: 100px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+ }
+
+ #logbtn:hover{
+    font-weight: bold;
+    background-color: rgba(198, 178, 154,.5);
+    color: #513D2F;
+
+ }
+
+ 
+
+
+
+
+ /* logwith */
+ #logwith{
+    text-align: center;
+    margin: 20px 0;
+ }
+
+ #logwith img:hover{
+    cursor: pointer;
+    scale: 1.04;
+ }
+ p b a{
+   color: #513D2F;
+   text-decoration: none;
+}
+ p b a:hover{
+    cursor: pointer;
+    color:burlywood; }
+
+ .mb-3 input{
+    background-color:rgba(198, 178, 154, .50);
+    height: 35px;
+ }
+
+ #Accept{
+   height: 18px;
+}
+
+
+ .mb-3 input:focus{
+   background-color:rgba(198, 178, 154, .50) !important;
+   border: #513D2F 1px solid !important;
+   box-shadow: #513D2F 0px 0px 3px !important;
+}
+input:-internal-autofill-selected {
+   background-color:rgba(198, 178, 154, .50) !important;
+
+}
+
+ .mb-3 label , p{
+    color:#513D2F;
+    font-family: 'Roboto Slab', serif;
+
+ }
+
+ span{
+   color: red;
+   font-size: 13px;
+ }

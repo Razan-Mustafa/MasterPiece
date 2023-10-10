@@ -1,0 +1,512 @@
+.carousel-item  img{
+  height: 75vh;
+}
+.carousel-caption{
+  background-color: rgba(198, 178, 154,.5);
+}
+.carousel-caption h1{
+  font-size: 90px !important;
+}
+.carousel-caption p{
+  font-size: 20px !important;
+}
+
+/* GENDER PHOTO******************************************************* */
+.row2 {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    gap: 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+  }
+  
+  .column2 {
+    flex: 40% !important;
+  }
+
+
+.container2 {
+    position: relative;
+    width: 90%;
+    margin: auto;
+  }
+.container2 img {
+    box-shadow: 5px 5px 5px #513D2F;
+  }
+
+  /* img4 in js */
+  .img4{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .img4 img {
+    box-shadow: 5px 5px 5px #513D2F;
+  }
+
+  .column3 {
+    flex: 40% !important;
+  }
+  
+  .image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color:rgba(198, 178, 154, .6);
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    transform: scale(0);
+    transition: .3s ease;
+  }
+
+  .container2:hover .overlay {
+    transform: scale(1);
+  }
+  
+  .text {
+    color: #513D2F;
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: #FFFBF2;
+    border-radius: 20px;
+    font-family: 'EB Garamond', serif;
+    padding: 20px;
+}
+
+
+/* When select gender */
+
+.animation {
+    animation: myAnimation .2s;
+}
+
+  @keyframes myAnimation {
+    from {
+        transform: scale(0) ;
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.animation2 {
+    animation: myAnimation2 .2s;
+}
+
+  @keyframes myAnimation2 {
+    from {
+        transform: scale(1) ;
+        opacity: 1;
+    }
+    to {
+        transform: scale(0);
+        opacity: 0;
+    }
+}
+
+.animation3 {
+    animation: myAnimation3 .2s;
+    animation-delay: .2s;
+}
+
+  @keyframes myAnimation3 {
+    from {
+        transform: scale(0) ;
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+.imgcata:hover{
+ scale: 1.05;
+}
+
+.selectgender{
+   animation-name: gender;
+   animation-duration: 3s;
+   animation-timing-function: linear;
+   animation-iteration-count: infinite;
+ }
+
+ @keyframes gender {
+    0%{
+        opacity: 1;
+        scale: 1;
+    }
+    50% {
+        opacity: .8;
+        scale: 0.95;
+    }
+    100% {
+        opacity: 1;
+        scale: 1;
+    }
+ }
+
+
+
+ /* how ******************************************************* */
+ #howImg{
+    width: 80%;
+    margin-bottom: 100px;
+    box-shadow: 0px 0px 30px #513D2F;
+
+ }
+
+
+
+
+ /* TRINDY PHOTO******************************************************* */
+#trendtext{
+    font-size: 50px;
+    font-family: 'EB Garamond', serif;
+    color: #513D2F;
+    text-align:center;
+    font-weight: bold;
+}
+ .row1{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 100px;
+  }
+  
+  .column1 {
+    flex: 28%;
+    max-width: 33%;
+    padding: 0 4px;
+  }
+  
+  .trend img{
+    margin-top: 30px;
+    vertical-align: middle;
+    width: 95%;
+    box-shadow: 5px 5px 5px #513D2F;
+    transition: transform 0.3s ease;
+  }
+
+  .trend img:hover{
+    transform: scale(1.05) !important;
+  }
+  
+.s1{
+  height: 300px !important;
+}
+.s2{
+  height: 350px !important;
+}
+.s3{
+  height: 400px !important;
+}
+
+
+  @media screen and (max-width: 800px) {
+    .column1 {
+      flex: 45%;
+      max-width: 50%;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .column1 {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
+
+
+/* NEW ARRIVLE************************************************* */
+  
+.carousel-container1 {
+    overflow: hidden;
+    position: relative;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 100px;
+  }
+  
+  .carousel1{
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .carousel-item1 {
+    flex: 0 0 calc(100% / 5); /*Show 3 items at a time, adjust as needed */
+    /* flex: 25%; */
+    
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+ 
+  .carousel-item1 img {
+    width: 100%;
+    height: 320px;
+    transition: transform 0.5s ease;
+  }
+
+  .carousel-item1 img:hover {
+    transform: scale(1.09);
+  }
+  
+  .prev-button,
+  .next-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    cursor: pointer;
+    
+  }
+  .next-button {
+    right: 0;
+  }
+  
+
+
+
+
+
+/* ABOUT ************************************************** */
+.about {
+    background-color: #FFFBF2;
+    color: #513D2F;
+    padding: 30px 200px;
+    height: 530px;
+    font-size: 32px;
+    text-align: justify;
+    margin-bottom: 100px;
+    font-family: 'EB Garamond', serif;
+}
+.about1 {
+  background-color: #FFFBF2;
+  color: #513D2F;
+  padding: 30px 200px;
+  height: 570px;
+  font-size: 32px;
+  text-align: justify;
+  margin-bottom: 100px;
+  font-family: 'EB Garamond', serif;
+}
+
+.float-start {
+    height: 470px !important;
+    padding-right: 50px;
+}
+
+.float-end{
+    height: 470px !important;
+    padding-left: 50px;
+}
+
+#rentbtn{
+ background-color: rgba(198, 178, 154, 0.6);
+ color: #513D2F;
+ font-size: 28px;
+ font-weight:900 ;
+ font-family: 'Caveat', cursive;
+ border-radius: 5px;
+ border: none;
+ margin-top: 30px;
+ padding: 5px 10px;
+}
+
+#rentbtn:hover{
+    background-color: #c6b29a;
+    color: #9E5127;
+}
+
+#readbtn{
+  background-color: rgba(198, 178, 154, 0.6);
+  color: #513D2F;
+  font-size: 28px;
+  font-weight:800 ;
+  font-family: 'Caveat', cursive;
+  border-radius: 5px;
+  border: none;
+  margin-top: 10px;
+  padding: 5px 7px;
+ }
+ 
+ #readbtn:hover{
+     background-color: #c6b29a;
+     color: #9E5127;
+ }
+
+
+
+
+
+
+
+
+
+
+.row > .column {
+    padding: 0 8px;
+}
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Create four equal columns that floats next to eachother */
+  .column {
+    float: left;
+    width: 25%;
+  }
+  
+  /* The Modal (background) */
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: black;
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    width: 90%;
+    max-width: 1200px;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #999;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* Hide the slides by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Caption text */
+  .caption-container {
+    text-align: center;
+    background-color: black;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  img.demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+  
+  img.hover-shadow {
+    transition: 0.3s;
+  }
+  
+  .hover-shadow:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+
+
+
+
+  
+
+  /* Style the category image */
+.category-image {
+  max-width: 10%;
+  display: inline-block;
+
+}
+
+.category-link {
+  color: red;
+  text-decoration: none; 
+}
+.div-content {
+ display: inline-block;
+}

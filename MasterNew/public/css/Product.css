@@ -1,0 +1,184 @@
+/* The filter ****************************************************************** */
+.sidenav {
+    height: 100vh;
+    width: 300px;
+    position: fixed;
+    z-index: 1;
+    top:0;
+    left: 0;
+    background-image: url(../photos/backgroundfilter.PNG);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+    margin-bottom: 600px !important;
+  }
+
+  #logofilter{
+    text-align: center;
+    /* margin-top: 40px; */
+    margin-bottom: 40px;
+  }
+  #titlefilter{
+    color: #fffbf2;
+    padding: 10px;
+    font-weight: bold;
+  }
+
+
+  /* drop btn *********************************************************** */
+  #backcontainer {
+    /* background-color: rgba(81, 61, 47, .5); */
+    font-family: 'EB Garamond', serif;
+    height:100%;
+    padding: 40px 15px;
+  }
+  .dropdown-container {
+    max-height: 0;
+    overflow: hidden;
+    display: none;
+    background-color:transparent;
+    padding-left: 8px;
+    transition: max-height 0.5s ease-out;
+
+  }
+  /*  + and -  */
+  .fa-plus ,.fa-minus {
+   float: right;
+   margin-top: 15px;
+    padding-right: 20px;
+  }
+
+  .sidenav label, .dropdown-btn {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #fffbf2;
+    display: block;
+    border: none;
+    background: none;
+    width:100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+  }
+
+  .sidenav a:hover ,.dropdown-btn:hover {
+    color: #C6B29A;
+  }
+  
+  /* Style page content **********************************************************/
+.main {
+    margin-left: 320px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+    font-size: 10px;
+   
+    
+}
+#bigdiv{
+    width: 100%;
+    margin: auto;
+    
+}
+.stytitle{
+    text-align:center !important; 
+    color: #513D2F !important;
+    font-size: 20px !important;
+}
+.colcard {
+    max-width: 24% !important ;
+    color: #513D2F !important ;
+}
+
+.colcard:hover {
+    scale: 1.05;
+}
+
+.price{
+    color: #513D2F !important ;
+}
+.card-footer{
+    background-color: #c6b29a8a !important;
+}
+.memberyes{
+  background-color: #a3c69a8a !important;
+}
+.text-body-secondary{
+  font-size: 12px !important;
+  font-weight: bold;
+}
+
+.hearticon{
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    cursor: pointer;
+}
+  
+
+
+/* overlay*************************************************************************** */
+.contaier1 {
+    position: relative;
+  }
+  
+
+  
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    width: 100%;
+    opacity: 0;
+    height: 100%;
+    transition: .5s ease;
+  }
+  
+  .contaier1:hover .overlay {
+    width: 100%;
+    opacity: 1;
+    
+  }
+
+  .nextbtn{
+    margin: 50px 0 100px 0 !important;
+    width: 96% !important;
+  }
+  .page-link{
+    color: #513D2F !important;
+    border: 1px solid #513D2F !important;
+  }
+  .page-link:hover{
+    background-color:#C6B29A  !important; ;
+  }
+  
+  .page-link:focus{
+    box-shadow: none !important;
+    background-color:#C6B29A  !important; ;
+  }
+
+
+.custom-pagination .page-item.active .page-link {
+  background-color: #C6B29A;
+  border-color: #C6B29A;
+  color: #fff;
+}
+
+  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+
+
+  @media screen and (min-width:400px) and (max-width:768px) {
+    .col {
+        max-width: 45% !important ;
+    }
+  }
+
+
+

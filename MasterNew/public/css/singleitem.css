@@ -1,0 +1,533 @@
+#biggrid{
+    width: 85%;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.sideimg img{
+    height:180px !important;
+    margin: 5px 0px;
+    float: right;
+}
+
+.bigimg img{
+    height:560px !important;
+    margin: 5px 0px;
+    box-shadow: 0 0 7px #513d2f;
+  }
+  .sideimg img{
+  cursor:pointer !important;
+  box-shadow: 0 0 7px #513d2f;
+
+  }
+  .sideimg img:hover{
+  border: 2px solid #C6B29A;
+  }
+
+
+
+/* content************************************* */
+.content1{
+    padding-left: 50px !important;
+    text-align: left;
+}
+h4 i {
+    float: right;
+    margin-top: 17px;
+    margin-right: 5px;
+}
+
+.fa-star{
+    color: #513d2f;
+}
+.checked{
+    color: gold;
+}
+
+/* size */
+ #size p {
+    font-size: 20px;
+    font-family: 'Lora', serif;
+    margin:10px 0 0 0;
+  }
+
+ #size label {
+    display: inline-block;
+    font-size: 16px;
+    width: 30px;
+    text-align: center;
+    background-color: #fffbf2;
+    border: 1px solid #C6B29A;
+    border-radius: 5px;
+    padding: 2px;
+    margin: 0 2px;
+    font-family: 'Lora', serif;
+ }
+ #size label:hover {
+    scale: 1.1;
+    border: 2px solid #513d2f;
+ }
+
+ input[type="radio"]:checked + .radio-label {
+  scale: 1.1 !important;
+  border: 2px solid #513d2f !important;
+  background-color: #c6b29acb !important;
+}
+ #size .size{
+  display: none !important;
+ }
+
+ /* color */
+ #color p{
+  font-size: 20px;
+  font-family: 'Lora', serif;
+  margin:10px 0 0 0;
+ }
+
+ #color label {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: none;
+ }
+ #color label:hover {
+    scale: 1.1;
+ }
+ #color .color{
+  display: none !important;
+ }
+ input[type="radio"]:checked + .radio-labelcolor {
+  scale: 1.2 !important;
+  border: .5px solid #513d2f;
+}
+
+
+
+ /* #color1 {
+    background-color: red;
+ }
+ #color2 {
+    background-color: orange;
+ }
+ #color3 {
+    background-color: blue;
+ }
+ #color4 {
+    background-color: green;
+ } */
+
+ /* date */
+
+ #date {
+    width: 100%;
+    height:35px !important;
+    background-color: #fffbf2;
+    color: #513d2f;
+    border: 2px solid #513d2f;
+    border-radius: 5px;
+    padding: 2px;
+    font-size: 18px;
+    font-family: 'Lora', serif;
+    padding: 2px 10px !important;
+    
+ }
+
+ form label{
+  font-size: 20px;
+  font-family: 'Lora', serif;
+  margin:10px 0 0 0;
+ }
+
+ /* days */
+#delivery-period{
+    width: 100%;
+    background-color: #fffbf2;
+    color: #513d2f;
+    border: 2px solid #513d2f;
+    border-radius: 5px;
+    padding: 2px; 
+    font-size: 18px;
+    font-family: 'Lora', serif;
+    padding: 2px 10px !important;
+    height:35px !important;
+}
+
+
+/* rental way */
+#way{
+  display: flex;
+  justify-content: space-between;
+}
+
+.way{
+  color: #513d2f;
+  width: 45%;
+  height: 120px;
+  background-color: #fffbf2;
+  padding-left: 5px;    
+  font-size: 28px;
+  overflow: hidden;
+  border: 2px solid #513d2f;
+  margin-right: 10px;
+  border-radius: 5px;
+  transition: transform 0.5s ease;
+}
+.way:hover{
+  transform: scale(1.03);
+  border: 2px solid #C6B29A;
+}
+
+.label {
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 20px;
+  margin-top: 6px;
+  vertical-align: middle;
+  width: 80%;
+ 
+}
+
+.way {
+  margin-bottom: 20px;
+}
+
+input[type="radio"] {
+  margin-right: 5px;
+  margin-top: 5px;
+  display: inline-block !important;
+  vertical-align: top;
+}
+
+
+/* add to cart */
+#price{
+   margin: 0;
+   font-size: 20px;
+}
+#cartbtn{
+   width: 100%;
+
+   background-color: #513d2f;
+   color: #fffbf2;
+   border: 2px solid #513d2f;
+   border-radius: 5px;
+   padding: 4px;
+   font-weight: bold;
+}
+
+#cartbtn:hover{
+  background-color: rgba(198, 178, 154, 0.5);
+  color: #513d2f;
+  font-weight: bold;
+  border: none;
+}
+
+
+ /* RELATED PHOTO******************************************************* */
+  
+ #Related{
+  font-size: 25px;
+  font-family: 'Lora', serif;
+  margin:5px 0 0 0;
+  width: 80%;
+  margin: auto;
+ }
+
+.carousel-container1 {
+   overflow: hidden;
+   position: relative;
+   width: 80%;
+   margin: auto;
+   margin-bottom: 100px;
+ }
+ 
+ .carousel1{
+   display: flex;
+   transition: transform 0.5s ease;
+ 
+   
+ }
+ 
+ .carousel-item1 {
+   flex: 0 0 calc(100% / 5); /*Show 3 items at a time, adjust as needed */
+   /* flex: 25%; */
+   
+   padding: 10px;
+   box-sizing: border-box;
+ }
+ 
+ .carousel-item1 img {
+   width: 100%;
+   height: 320px;
+   transition: transform 0.5s ease;
+ }
+
+ .carousel-item1 img:hover {
+  transform: scale(1.09);
+}
+ 
+ .prev-button,
+ .next-button {
+   position: absolute;
+   top: 50%;
+   
+   transform: translateY(-50%);
+   border: none;
+   cursor: pointer;
+   
+   
+ }
+ .next-button {
+   right: 0;
+ }
+
+/* Accessory ***************************************************** */
+#access{
+  font-size: 25px;
+  font-family: 'Lora', serif;
+  margin:5px 0 0 0;
+  width: 80%;
+  margin: auto;
+  
+ }
+
+
+
+#divaccess{
+  width: 80%;
+  margin: auto;
+  margin-bottom: 100px;
+}
+
+#divaccess div{
+  display: inline-block;
+  margin-right: 10px;
+  position: relative;
+  transition: transform 0.5s ease;
+}
+#divaccess div img{
+  height: 180px;
+}
+
+#divaccess div:hover{
+  transform: scale(1.09);
+
+ }
+
+#divaccess div i{
+  display: inline-block;
+  position: absolute;
+  bottom: 0px;
+  right: 2px;
+  padding: 0;
+  margin: 5px;
+  cursor: pointer;
+}
+#divaccess div i:hover{
+  scale: 1.1;
+
+}
+
+
+
+
+
+
+
+
+/* rating************************************ */
+* {
+   box-sizing: border-box;
+ }
+ 
+ section {
+   font-family: Arial;
+   margin: 0 auto; 
+   max-width: 800px; 
+   padding: 20px;
+ }
+ 
+ .heading {
+   font-size: 25px;
+   margin-right: 25px;
+ }
+ 
+ .fa {
+   font-size: 25px;
+ }
+ 
+ .checked {
+   color: orange;
+ }
+ 
+ /* Three column layout */
+ .side {
+   float: left;
+   width: 15%;
+   margin-top: 10px;
+ }
+ 
+ .middle {
+   float: left;
+   width: 70%;
+   margin-top: 10px;
+ }
+ 
+ /* Place text to the right */
+ .right {
+   text-align: right;
+ }
+ 
+ /* Clear floats after the columns */
+ .row3:after {
+   content: "";
+   display: table;
+   clear: both;
+ }
+ 
+ /* The bar container */
+ .bar-container {
+   width: 100%;
+   background-color: #f1f1f1;
+   text-align: center;
+   color: white;
+ }
+ 
+ /* Individual bars */
+ .bar-5 {width: 60%; height: 18px; background-color: #04AA6D;}
+ .bar-4 {width: 30%; height: 18px; background-color: #2196F3;}
+ .bar-3 {width: 10%; height: 18px; background-color: #00bcd4;}
+ .bar-2 {width: 4%; height: 18px; background-color: #ff9800;}
+ .bar-1 {width: 15%; height: 18px; background-color: #f44336;}
+ 
+ /* Responsive layout - make the columns stack on top of each other instead of next to each other */
+ @media (max-width: 400px) {
+   .side, .middle {
+     width: 100%;
+   }
+   /* Hide the right column on small screens */
+   .right {
+     display: none;
+   }
+ }
+
+
+ /*rating////////////////////////////////////////////////////////////////// */
+#Review{
+  width: 80%;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  box-shadow: rgb(198, 178, 154) 0px 0px 10px;
+  padding: 20px 40px;
+  border-radius: 10px;
+  background-color: rgba(255, 251, 242 ,.2);
+}
+#Review p{
+  font-size: 30px;
+  font-family: 'Lora', serif;
+  color: #513d2f;
+  margin:5px 0 0 0;
+}
+ #tableReview{
+  margin-top: 20px !important;
+}
+
+#tableReview th {
+  padding: 10px 40px 0 40px;
+  width: 33%;
+  
+  
+}
+#tableReview th ,#tableReview td {
+  padding: 0px 40px 10px 40px;
+  border-left:rgba(81, 61, 47,.5) 1px solid ;
+  
+}
+
+.num {
+  font-size: 35px !important;
+  color: #513d2f;
+  margin-right: 5px;
+}
+
+#avgR span{
+  vertical-align: middle;
+  font-size: 23px;
+}
+/* #avgR p{
+font-size: 20px;
+color: #513d2f;
+} */
+
+
+#numP{
+  font-size: 20px !important;
+  color: #513d2f;
+
+}
+
+/* comment********************* */
+#comment{
+  overflow: auto;
+  height: 500px;
+  margin-top: 50px;
+}
+#comment img{
+  width: 55px;
+  height:55px;
+  border-radius: 50%;
+}
+
+#name{
+  display: inline-block;
+  vertical-align:middle;
+}
+
+#name p{
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+#comment_content{
+  padding-left: 60px;
+  padding-right: 10px;
+}
+
+/* add review */
+
+#addreview{
+  margin-top: 30px;
+}
+#addreview form{
+  width: 100%; 
+}
+#addreview form textarea{
+  width: 100%; 
+  border: #C6B29A 1px solid;
+  box-shadow: #C6B29A 0 0 3px;
+  margin:10px 0 6px 0;
+  color: #513d2f;
+}
+
+#commentbtn{
+  text-align: right;
+}
+
+#commentbtn button{
+  background-color: #513d2f;
+  border: none;
+  color: #fffbf2;
+  padding: 5px 8px;
+  border-radius: 3px;
+  font-size: 17px;
+}
+
+#commentbtn button:hover{
+  background-color: rgba(198, 178, 154, 0.5);
+  color: #513d2f;
+  font-weight: bold;
+  
+}

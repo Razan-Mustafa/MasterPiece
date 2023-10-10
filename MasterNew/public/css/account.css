@@ -1,0 +1,206 @@
+/* The filter ****************************************************************** */
+.sidenav {
+    /* height: 100%; */
+    width: 500px;
+    /* background-color: #fffdf2; */
+    border-right: 2px #513D2F solid; 
+    position: fixed;
+    z-index: 1;
+    top:360;
+    left: 0;
+    background-repeat: no-repeat;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding: 0px 120px;
+    margin-top: 50px;
+  }
+
+  #accountphoto{
+    text-align: center;
+  }
+  #accountphoto img{
+    width: 150px !important;
+    height: 150px !important;
+    border-radius: 50% !important;
+  }
+
+  #username{
+    color: black;
+    font-size: 30px !important;
+    text-align: center !important;
+    padding: 10px;
+  }
+
+  #links a{
+    text-decoration: none;
+    color: #513d2f;
+}
+#links a h4{
+  color: #513d2f;
+  height: 0px;
+  font-size: 20px;  
+  padding-bottom: 15px; 
+ 
+}
+
+#logout{
+  color: #fffdf2;
+  background-color: #513D2F;
+  width: 100px;
+  font-family: 'Roboto Slab', serif;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+/* vertical line*************************************** */
+.verline {
+    display: inline-block; 
+    border-left: 2px solid #513d2f;
+    height: 450px;
+    margin: 50px 0px 50px 500px ;
+    transform: translateX(-50%); /* Centers the line precisely */
+    
+  }
+  
+  /* content 1*************************************************************** */
+/* form */
+#maincontent{
+  width: 55%;
+  margin-left: 520px;
+  margin-top: 70px;
+}
+ #content{
+  padding: 0px 10px;
+  font-size: 18px;
+  text-align: left !important;
+}
+.mb-3 input{
+  background-color:rgba(198, 178, 154, .50);
+}
+.mb-3 label , p{
+  color:#513D2F;
+  font-family: 'Roboto Slab', serif;
+
+}
+
+/* button */
+#flex{
+  display: flex; 
+  justify-content: space-between;
+  padding: 10px;
+}
+#check{
+  font-size: 15px !important;
+}
+#savebtn{
+  color: #fffdf2;
+  background-color: #513D2F;
+  width: 100px;
+  font-family: 'Roboto Slab', serif;
+  font-size: 20px;
+}
+
+/* order****************************************************** */
+#contentO{
+  margin:70px 100px 70px 580px !important;
+  
+}
+#contentO p{
+  font-size: 25px;
+}
+
+#order{
+  border: rgba(81, 61, 47,.5) 1px solid;
+  padding: 30px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+#divimg{
+  display: inline-block;
+  text-align: right;
+  max-width: 320px !important;
+}
+
+#ViewO{
+  display: inline-block;
+  text-align: right;
+  vertical-align:top !important;
+  width: 440px;
+
+}
+
+
+#ViewO button{
+  color: #fffdf2;
+  background-color: #513D2F;
+  width: 100px;
+  font-family: 'Roboto Slab', serif;
+  font-size: 15px;
+}
+
+#tableOrder{
+  margin-top: 20px !important;
+}
+
+#tableOrder th {
+  padding: 10px 20px 0 20px;
+  border-left:rgba(81, 61, 47,.5) 1px solid ;
+  
+}
+#tableOrder th ,#tableOrder td {
+  padding: 0px 20px 10px 20px;
+  border-left:rgba(81, 61, 47,.5) 1px solid ;
+  
+}
+
+
+/* Wislist///////////////////////////////////////////////// */
+#contentW{
+  margin:50px 100px 70px 520px !important;
+}
+
+#contentW p{
+  font-size: 25px;
+}
+
+#Wishlist{
+  max-width: 700px;
+  min-width: 700px;
+  margin-left: 50px;
+  text-align: center;
+
+
+}
+#Wishlist td{
+ width: 100px;
+ max-width: 100px !important;
+ padding: 5px 0px;
+ border-top: 1px solid #513D2F;
+
+
+}
+
+#addtocart{
+  color: #fffdf2;
+  background-color: #513D2F;
+  width: 150px;
+  font-family: 'Roboto Slab', serif;
+  font-size: 17px;
+}
+#remove{
+  color: #fffdf2;
+  background-color: #513D2F;
+  width: 100px;
+  font-family: 'Roboto Slab', serif;
+  font-size: 17px;
+}
+
+.mb-3 input:focus{
+  background-color:rgba(198, 178, 154, .50) !important;
+  border: #513D2F 1px solid !important;
+  box-shadow: #513D2F 0px 0px 3px !important;
+}
+input:-internal-autofill-selected {
+  background-color:rgba(198, 178, 154, .50) !important;
+
+}
